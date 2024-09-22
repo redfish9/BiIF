@@ -1,0 +1,14 @@
+env: highway
+
+n_lane: 8
+n_actions: 5
+obs_shape_single: 8
+n_agents: 5 # original: 5
+n_other_vehicles: 50 # original: 50; small: 30
+n_obs_vehicles: 5 # original: 15; small: 5
+episode_limit: 90
+scaling: 2.0
+screen_height: 300
+screen_width: 1200
+
+max_history_len: 10 # original: 10; small: 5
