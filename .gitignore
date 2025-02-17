@@ -1,6 +1,70 @@
+# 项目特定目录
 results/
 helper/
 test/
 test_model/
-baselines/
+baselines/MAPPO/results/
+baselines/QMIX/results/
 figs/
+
+# Python 编译文件和缓存
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python构建、Egg包等相关
+build/
+dist/
+*.egg-info/
+
+# 虚拟环境及相关配置
+env/
+.venv/
+venv/
+.env/
+
+# 操作系统自动生成的文件
+.DS_Store
+Thumbs.db
+
+# 编辑器/IDE配置（VSCode、PyCharm等）
+.vscode/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/libraries/
+
+# 忽略.idea中不需要跟踪的内容（部分由.idea/.gitignore管理）
+shelf/
+httpRequests/
+dataSources/
+dataSources.local.xml
+
+# 项目特定目录
+results/
+helper/
+test/
+test_model/
+baselines/MAPPO/results/
+basel/
+figs/
+
+# 日志和临时文件
+*.log
+logs/
+tmp/
+temp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# 本地配置文件
+.env
+.env.local
+*.local
+
+# 测试覆盖率报告
+.coverage
+htmlcov/
